@@ -1,6 +1,6 @@
 ﻿namespace OPENSOURCEHOMEACCOUNTING
 {
-    partial class Form1
+    partial class mainView
     {
         /// <summary>
         /// Erforderliche Designervariable.

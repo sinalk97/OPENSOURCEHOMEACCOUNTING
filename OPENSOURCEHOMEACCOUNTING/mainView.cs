@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace OPENSOURCEHOMEACCOUNTING
 {
-    public partial class Form1 : Form
+    public partial class mainView : Form
     {
-        public Form1()
+        public mainView()
         {
             InitializeComponent();
         }

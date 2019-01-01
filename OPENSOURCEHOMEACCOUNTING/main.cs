@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace OPENSOURCEHOMEACCOUNTING
 {
-    static class Program
+    static class main
     {
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
@@ -15,7 +15,9 @@ namespace OPENSOURCEHOMEACCOUNTING
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new mainView());
+            Controller con = new Controller();
+            con.run();
         }
     }
 }
